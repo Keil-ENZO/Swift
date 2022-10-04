@@ -14,6 +14,9 @@
 		34D1578528EB03780027A0C9 /* walletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1578428EB03780027A0C9 /* walletTests.swift */; };
 		34D1578F28EB03780027A0C9 /* walletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1578E28EB03780027A0C9 /* walletUITests.swift */; };
 		34D1579128EB03780027A0C9 /* walletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1579028EB03780027A0C9 /* walletUITestsLaunchTests.swift */; };
+		34D1579E28EB04BF0027A0C9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1579D28EB04BF0027A0C9 /* Data.swift */; };
+		34D157A028EB12220027A0C9 /* CryptoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1579F28EB12220027A0C9 /* CryptoCell.swift */; };
+		34D157A228EB16780027A0C9 /* CryptoDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D157A128EB16780027A0C9 /* CryptoDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		34D1578A28EB03780027A0C9 /* walletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D1578E28EB03780027A0C9 /* walletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walletUITests.swift; sourceTree = "<group>"; };
 		34D1579028EB03780027A0C9 /* walletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34D1579D28EB04BF0027A0C9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		34D1579F28EB12220027A0C9 /* CryptoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCell.swift; sourceTree = "<group>"; };
+		34D157A128EB16780027A0C9 /* CryptoDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				34D1577328EB03770027A0C9 /* walletApp.swift */,
 				34D1577528EB03770027A0C9 /* ContentView.swift */,
+				34D157A128EB16780027A0C9 /* CryptoDetailScreen.swift */,
+				34D1579D28EB04BF0027A0C9 /* Data.swift */,
+				34D1579F28EB12220027A0C9 /* CryptoCell.swift */,
 				34D1577728EB03780027A0C9 /* Assets.xcassets */,
 				34D1577928EB03780027A0C9 /* Preview Content */,
 			);
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D157A228EB16780027A0C9 /* CryptoDetailScreen.swift in Sources */,
+				34D157A028EB12220027A0C9 /* CryptoCell.swift in Sources */,
 				34D1577628EB03770027A0C9 /* ContentView.swift in Sources */,
+				34D1579E28EB04BF0027A0C9 /* Data.swift in Sources */,
 				34D1577428EB03770027A0C9 /* walletApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

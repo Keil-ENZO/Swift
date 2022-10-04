@@ -8,14 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            NavigationView {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 16) {
+                        Text("My wallet")
+                            .foregroundColor(Color.orange)
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .multilineTextAlignment(.leading)
+                            .padding(.vertical, 24)
+                            .padding(.horizontal, 16)
+                            
+                            
+                            
+                        ForEach(cryptoList, id: \.name) {crypto in
+                            NavigationLink {
+                                CryptoDetailScreen(crypto: crypto)
+                            }   label: {
+                                CryptoCell(crypto: crypto)
+                            }
+                        }
+                    }
+                    .padding()
+                }
+                .background(.gray)
+            }
+            .accentColor(.white)
         }
-        .padding()
     }
 }
 
